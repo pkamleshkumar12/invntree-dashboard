@@ -1,10 +1,25 @@
-import React from 'react';
+"use client"
+
+import CardPopularProduct from "@/app/dashboard/CardPopularProduct";
+import CardPurchaseSummary from "@/app/dashboard/CardPurchaseSummary";
+import CardSalesSummary from "@/app/dashboard/CardSalesSummary";
+import CardExpenseSummary from "@/app/dashboard/cardExpenseSummary";
 
 const Dashboard = () => {
     return (
-        <div>
-            Dashboard
-        </div>
+
+            <div
+                    className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:overflow-auto gap-10 pb-4 custom-grid-rows"
+            >
+                <CardPopularProduct />
+                <CardSalesSummary />
+                <CardPurchaseSummary />
+
+                <CardExpenseSummary />
+                <div className="md:row-span-1 xl:row-span-2 bg-gray-500"/>
+                <div className="md:row-span-1 xl:row-span-2 bg-gray-500"/>
+                <div className="md:row-span-1 xl:row-span-2 bg-gray-500"/>
+            </div>
     );
 };
 
