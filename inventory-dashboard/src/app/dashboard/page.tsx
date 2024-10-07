@@ -18,7 +18,7 @@ const Dashboard = () => {
 
                 <CardExpenseSummary/>
                 <StatCard
-                        title="Customer & Expenses [Demo] "
+                        title="Customer & Expenses [Mock] "
                         primaryIcon={<Package className="text-blue-600 w-6 h-6"/>}
                         dateRange="22 - 29 October 2024"
                         details={[
@@ -37,7 +37,7 @@ const Dashboard = () => {
                         ]}
                 />
                 <StatCard
-                        title="Dues & Pending Orders [Demo] "
+                        title="Dues & Pending Orders [Mock] "
                         primaryIcon={<CheckCircle className="text-blue-600 w-6 h-6"/>}
                         dateRange="22 - 29 October 2024"
                         details={[
@@ -56,7 +56,7 @@ const Dashboard = () => {
                         ]}
                 />
                 <StatCard
-                        title="Sales & Discount [Demo]"
+                        title="Sales & Discount [Mock]"
                         primaryIcon={<Tag className="text-blue-600 w-6 h-6"/>}
                         dateRange="22 - 29 October 2024"
                         details={[
