@@ -1,2 +1,7 @@
 node_modules/
 .idea/
+inventory-dashboard/dist
+inventory-server/dist
+inventory-dashboard/.env/
+inventory-server/.env/
+inventory-dashboard/.next
