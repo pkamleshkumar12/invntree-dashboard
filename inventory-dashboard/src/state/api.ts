@@ -74,7 +74,7 @@ export const api = createApi({
             query: () => "/dashboard",
             providesTags: ["DashboardMetrics"],
         }),
-        getProducts: build.query<Product[], String | void>({
+        getProducts: build.query<Product[], string | void>({
             query: (search) => ({
                url: "/products",
                 params: search ? { search } : {}
