@@ -17,7 +17,7 @@ import {usePathname} from "next/navigation";
 import Link from "next/link";
 
 interface SidebarLinkProps {
-    href: string;
+    href: String;
     icon: LucideIcon;
     label: String;
     isCollapsed: boolean;

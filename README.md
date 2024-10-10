@@ -3,7 +3,7 @@
 Welcome to the **Inventory Management System** project! 🎉 This project is split into two primary directories:
 
 1. **Inventory Dashboard**: This is the frontend, built using Next.js for an interactive, responsive UI.
-2. **Inventory Server**: This is the backend, built using Express.js, with Prisma ORM to communicate with a PostgreSQL database.
+2. **Inventory Server**: This is the backend, with Prisma ORM to communicate with a PostgreSQL database.
 
 Let's dive into the installation, setup, and architecture of this project! 🚀
 
@@ -20,7 +20,7 @@ This section covers the architecture of the Inventory Management System. Below i
 ## 📂 Directory Structure
 
 - **`inventory-dashboard/`**: Frontend (Next.js)
-- **`inventory-server/`**: Backend (Express.js with Prisma)
+- **`inventory-server/`**: Backend (Prisma)
 
 ---
 
