@@ -2,17 +2,17 @@ import { LucideIcon } from "lucide-react";
 import React from "react";
 
 type StatDetail = {
-    title: String;
-    amount: String;
+    title: string;
+    amount: string;
     changePercentage: number;
     IconComponent: LucideIcon;
 };
 
 type StatCardProps = {
-    title: String;
+    title: string;
     primaryIcon: JSX.Element;
     details: StatDetail[];
-    dateRange: String;
+    dateRange: string;
 };
 
 const StatCard = ({
